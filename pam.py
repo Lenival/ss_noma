@@ -11,7 +11,7 @@ modulation signal model.
 """
 
 import numpy as np
-#import math
+
 
 def pam(len,M,Var):
     return (2*np.floor(M*np.random.rand(1,len))-M+1)*np.sqrt(3*Var/(M^2-1))

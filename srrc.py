@@ -39,4 +39,4 @@ def srrc(syms, beta, P, t_off=0):
     return srrc_w
         
 if __name__ == "__main__":
-    print(srrc(3,0,2))
+    srrc(3,0,2)
